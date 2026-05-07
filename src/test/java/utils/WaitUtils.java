@@ -53,7 +53,7 @@ public class WaitUtils {
 	        log.debug("Waiting for text '{}' in: {}", text, locator);
 	        makeWait().until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
 	    }
-
+	    //some of the are not used.
 	    public void waitForPresence(By locator) {
 	        log.debug("Waiting for presence in DOM: {}", locator);
 	        makeWait().until(ExpectedConditions.presenceOfElementLocated(locator));

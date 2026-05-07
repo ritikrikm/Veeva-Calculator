@@ -31,14 +31,10 @@ public abstract class BaseTest {
 
 	 private static final ThreadLocal<ExtentTest> extentTestThreadLocal = new ThreadLocal<>();
 	 @AfterSuite(alwaysRun = true)
-	    public void tearDownSuite(ITestContext ctx) {
-	        log.info("Suite complete – flushing ExtentReports. " +
-	                 "Passed={}, Failed={}, Skipped={}",
-	                 ctx.getPassedTests().size(),
-	                 ctx.getFailedTests().size(),
-	                 ctx.getSkippedTests().size());
-	        extent.flush();
-	    }
+	 public void tearDownSuite() {
+	     log.info("Suite complete - flushing ExtentReports.");
+	     extent.flush();
+	 }
 	 
 	 /**
 	     * Initialises WebDriver and opens the calculator URL before every test method.

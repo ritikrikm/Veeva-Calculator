@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 07 13:56:59 EDT 2026</td>
+<td>Started on:</td><td>Thu May 07 16:34:12 EDT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13485 ms)</td>
+<tr><td>Total time:</td><td>44 seconds (44113 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.CarbohydrateCalculatorTest.TC001_calculateCarbsForAverageAdultMale_Imperial()'><b>TC001_calculateCarbsForAverageAdultMale_Imperial</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pages.CarbohydrateCalculatorPage.selectUSUnits()&quot; because &quot;this.page&quot; is null
-	at testCases.CarbohydrateCalculatorTest.TC001_calculateCarbsForAverageAdultMale_Imperial(CarbohydrateCalculatorTest.java:15)
+<td title='testCases.CarbohydrateCalculatorTest.TC045_allFieldsHaveAssociatedLabels()'><b>TC045_allFieldsHaveAssociatedLabels</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td><div><pre>java.lang.AssertionError: Missing label for: Age (cage) expected [true] but found [false]
+	at testCases.CarbohydrateCalculatorTest.TC045_allFieldsHaveAssociatedLabels(CarbohydrateCalculatorTest.java:157)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1263455953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1263455953'><pre>java.lang.NullPointerException: Cannot invoke &quot;pages.CarbohydrateCalculatorPage.selectUSUnits()&quot; because &quot;this.page&quot; is null
-	at testCases.CarbohydrateCalculatorTest.TC001_calculateCarbsForAverageAdultMale_Imperial(CarbohydrateCalculatorTest.java:15)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace198785987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace198785987'><pre>java.lang.AssertionError: Missing label for: Age (cage) expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.CarbohydrateCalculatorTest.TC045_allFieldsHaveAssociatedLabels(CarbohydrateCalculatorTest.java:157)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -111,7 +114,61 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>testCases.CarbohydrateCalculatorTest@47da3952</td></tr>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC058_resultNotShownBeforeFirstCalculation()'><b>TC058_resultNotShownBeforeFirstCalculation</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>5</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance()'><b>TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC021_specialCharactersInAgeField_ShouldShowValidationError()'><b>TC021_specialCharactersInAgeField_ShouldShowValidationError</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC031_minValidHeight_Imperial_ShouldYieldResult()'><b>TC031_minValidHeight_Imperial_ShouldYieldResult</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC010_emptyWeightField_ShouldShowValidationError()'><b>TC010_emptyWeightField_ShouldShowValidationError</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC060_printResultSectionIsClean()'><b>TC060_printResultSectionIsClean</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC038_MifflinStJeor_BMRFormulaVerification()'><b>TC038_MifflinStJeor_BMRFormulaVerification</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC001_calculateCarbsForAverageAdultMale_Imperial()'><b>TC001_calculateCarbsForAverageAdultMale_Imperial</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
+<tr>
+<td title='testCases.CarbohydrateCalculatorTest.TC042_pageLoadsInUnder3Seconds()'><b>TC042_pageLoadsInUnder3Seconds</b><br>Test class: testCases.CarbohydrateCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.CarbohydrateCalculatorTest@1568159</td></tr>
 </table><p>
 </body>
 </html>

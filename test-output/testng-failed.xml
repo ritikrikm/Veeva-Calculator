@@ -7,7 +7,8 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="TC001_calculateCarbsForAverageAdultMale_Imperial"/>
+          <include name="TC045_allFieldsHaveAssociatedLabels"/>
+          <include name="setupPage"/>
           <include name="tearDownSuite"/>
         </methods>
       </class> <!-- testCases.CarbohydrateCalculatorTest -->

@@ -1,1 +1,241 @@
 2026-05-07 13:57:11.735 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - Cannot invoke "pages.CarbohydrateCalculatorPage.selectUSUnits()" because "this.page" is null
+2026-05-07 14:04:01.717 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - no such element: Unable to locate element: {"method":"css selector","selector":"input[name='csex'][value='1']"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0d5f9b349362f1831700a707e47c6b5, findElement {using=css selector, value=input[name='csex'][value='1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58894}, goog:processID: 19790, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58894/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0d5f9b349362f1831700a707e47c6b5
+2026-05-07 14:05:53.269 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - no such element: Unable to locate element: {"method":"css selector","selector":"#cweightpound"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44d43df343bec251d8f7b4f63ac8447c, findElement {using=id, value=cweightpound}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59433}, goog:processID: 19885, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59433/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44d43df343bec251d8f7b4f63ac8447c
+2026-05-07 14:20:32.781 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='US Units']"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2c9b70ec0b83f44fa665900cd14b4e7, findElement {using=xpath, value=//a[normalize-space()='US Units']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63136}, goog:processID: 20345, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63136/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2c9b70ec0b83f44fa665900cd14b4e7
+2026-05-07 14:24:30.283 [ERROR] [main] listeners.TestListener – FAILED: TC010_emptyWeightField_ShouldShowValidationError - no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'error') or contains(@class,'alert')]"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19cb7edde3f8e2cbe6d0947043e25400, findElement {value=//*[contains(@class,'error') or contains(@class,'alert')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64138}, goog:processID: 20476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64138/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19cb7edde3f8e2cbe6d0947043e25400
+2026-05-07 14:24:34.500 [ERROR] [main] listeners.TestListener – FAILED: TC021_specialCharactersInAgeField_ShouldShowValidationError - no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'error') or contains(@class,'alert')]"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b52a4046a062a3a2c2ce56fd97ef0bf, findElement {value=//*[contains(@class,'error') or contains(@class,'alert')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64202}, goog:processID: 20499, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64202/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b52a4046a062a3a2c2ce56fd97ef0bf
+2026-05-07 14:24:44.184 [ERROR] [main] listeners.TestListener – FAILED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance - no such element: Unable to locate element: {"method":"css selector","selector":"#cheightcm"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5fa869a4e3497ca9b7a1a81abc4ba50, findElement {value=cheightcm, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64313}, goog:processID: 20541, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64313/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5fa869a4e3497ca9b7a1a81abc4ba50
+2026-05-07 14:28:05.190 [ERROR] [main] listeners.TestListener – FAILED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance - no such element: Unable to locate element: {"method":"css selector","selector":"#cweightkg"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b28ff95889d5b7ac00d7b686eb58ed1, findElement {value=cweightkg, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65406}, goog:processID: 20745, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65406/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b28ff95889d5b7ac00d7b686eb58ed1
+2026-05-07 14:43:03.375 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-07 14:43:04.970 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
+2026-05-07 14:43:06.231 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-07 14:43:07.522 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
+2026-05-07 14:43:08.822 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-07 14:43:10.188 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
+2026-05-07 14:43:11.520 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
+2026-05-07 14:43:12.959 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
+2026-05-07 14:43:14.223 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
+2026-05-07 14:43:15.434 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
+2026-05-07 14:43:53.871 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-07 14:43:55.479 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
+2026-05-07 14:43:56.824 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-07 14:43:58.417 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
+2026-05-07 14:43:59.799 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-07 14:44:01.320 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
+2026-05-07 14:44:02.537 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
+2026-05-07 14:44:03.980 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
+2026-05-07 14:44:05.514 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
+2026-05-07 14:44:06.904 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
+2026-05-07 14:46:29.989 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-07 14:46:31.739 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
+2026-05-07 14:46:33.197 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-07 14:46:34.523 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
+2026-05-07 14:46:36.117 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-07 14:46:37.600 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
+2026-05-07 14:46:38.842 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
+2026-05-07 14:46:40.087 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
+2026-05-07 14:46:41.420 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
+2026-05-07 14:46:42.696 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
+2026-05-07 14:47:06.568 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-07 14:47:08.125 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
+2026-05-07 14:47:09.490 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-07 14:47:10.897 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
+2026-05-07 14:47:12.216 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-07 14:47:13.621 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
+2026-05-07 14:47:15.246 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
+2026-05-07 14:47:16.893 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
+2026-05-07 14:47:18.296 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
+2026-05-07 14:47:19.594 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
+2026-05-07 14:51:02.588 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-07 14:51:04.102 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
+2026-05-07 14:51:05.515 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-07 14:51:06.943 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
+2026-05-07 14:51:08.370 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-07 14:51:09.656 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
+2026-05-07 14:51:10.905 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
+2026-05-07 14:51:12.127 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
+2026-05-07 14:51:13.337 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
+2026-05-07 14:51:14.611 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
+2026-05-07 14:56:18.294 [ERROR] [main] listeners.TestListener – FAILED: TC031_minValidHeight_Imperial_ShouldYieldResult - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6029da6dcf97d64bc3d3ffef4fc69555, findElement {using=xpath, value=//h2[normalize-space()='Result']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56909}, goog:processID: 22329, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56909/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6029da6dcf97d64bc3d3ffef4fc69555
+2026-05-07 14:56:29.549 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams ~=277+-10g, found: 0 expected [true] but found [false]
+2026-05-07 14:56:34.284 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
+2026-05-07 14:56:36.538 [ERROR] [main] listeners.TestListener – FAILED: TC058_resultNotShownBeforeFirstCalculation - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c748d406064bebcf13b849670dd3a0ee, findElement {using=xpath, value=//h2[normalize-space()='Result']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57156}, goog:processID: 22425, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57156/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c748d406064bebcf13b849670dd3a0ee
+2026-05-07 15:00:12.935 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams ~=277+-10g, found: 0 expected [true] but found [false]
+2026-05-07 15:00:17.646 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
+2026-05-07 15:00:20.361 [ERROR] [main] listeners.TestListener – FAILED: TC058_resultNotShownBeforeFirstCalculation - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b182d4fb7d709194a3bd153b97752cc, findElement {using=xpath, value=//h2[normalize-space()='Result']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58507}, goog:processID: 22773, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58507/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b182d4fb7d709194a3bd153b97752cc
+2026-05-07 15:14:34.842 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - For input string: "31010930683"
+2026-05-07 15:14:39.296 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
+2026-05-07 15:14:41.545 [ERROR] [main] listeners.TestListener – FAILED: TC058_resultNotShownBeforeFirstCalculation - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f212d3db9410c5feab8f0074c1b45e1, findElement {using=xpath, value=//h2[normalize-space()='Result']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62314}, goog:processID: 23320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62314/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f212d3db9410c5feab8f0074c1b45e1
+2026-05-07 15:20:03.836 [ERROR] [main] listeners.TestListener – FAILED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance - stale element reference: stale element not found
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d472fb879b82e7ae7db2e2ec3d478723, clickElement {id=f.7FA4DF9DBE3C0BB42B597573960A583A.d.1157CF6DE9296846D1ADE1F7B8C8CE33.e.26}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63897}, goog:processID: 23574, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63897/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d472fb879b82e7ae7db2e2ec3d478723)] -> xpath: //label[@for='csex1']]
+Session ID: d472fb879b82e7ae7db2e2ec3d478723
+2026-05-07 15:20:09.798 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - For input string: "31010930683"
+2026-05-07 15:20:14.761 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
+2026-05-07 15:22:51.057 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams ~=277+-10g, found: 310 expected [true] but found [false]
+2026-05-07 15:24:56.626 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
+2026-05-07 15:39:04.442 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
+2026-05-07 15:50:35.630 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - stale element reference: stale element not found
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [23b597fbd110f8b69ed1d35bbd676902, clickElement {id=f.EB2E2734475E126BFCAF471822A4B4FF.d.9773FE3DF1D6CFCFC71E7F5DE2644255.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56012}, goog:processID: 24896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56012/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (23b597fbd110f8b69ed1d35bbd676902)] -> xpath: //label[@for='csex1']]
+Session ID: 23b597fbd110f8b69ed1d35bbd676902
+2026-05-07 15:50:49.341 [ERROR] [main] listeners.TestListener – FAILED: TC031_minValidHeight_Imperial_ShouldYieldResult - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbf2f43f4413cdd0962240452fdcbfbd, findElement {value=//h2[normalize-space()='Result'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56197}, goog:processID: 24965, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbf2f43f4413cdd0962240452fdcbfbd
+2026-05-07 15:51:02.836 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams off: actual=310, expected=290 expected [true] but found [false]
+2026-05-07 15:51:08.017 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
+2026-05-07 15:51:14.024 [ERROR] [main] listeners.TestListener – FAILED: TC060_printResultSectionIsClean - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6836cfbefca02f37347b88d044867132, findElement {value=//h2[normalize-space()='Result'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56539}, goog:processID: 25085, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56539/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6836cfbefca02f37347b88d044867132
+2026-05-07 15:52:43.129 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - stale element reference: stale element not found
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c344666c5edfc61550ad35691146947a, clickElement {id=f.E64518D9B03D0889CD21DA0304D455B9.d.EC9E76981E056E9E78E23EF1121C908E.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56941}, goog:processID: 25177, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56941/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (c344666c5edfc61550ad35691146947a)] -> xpath: //label[@for='csex1']]
+Session ID: c344666c5edfc61550ad35691146947a
+2026-05-07 15:52:59.027 [ERROR] [main] listeners.TestListener – FAILED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance - stale element reference: stale element not found
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ca79b3cf949280b3fa0f891075f70fe, clickElement {id=f.110A453CAC5E4C7DEA279FFBFB59E6CF.d.414ACDD3A4F2576C899F914CBA80BAEF.e.30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57155}, goog:processID: 25267, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57155/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (6ca79b3cf949280b3fa0f891075f70fe)] -> xpath: //label[@for='csex1']]
+Session ID: 6ca79b3cf949280b3fa0f891075f70fe
+2026-05-07 15:53:03.285 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - no such element: Unable to locate element: {"method":"xpath","selector":"//table//tr[td='Weight Maintenance']/td[4]"}
+  (Session info: chrome=147.0.7727.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7d93dd620491e9fb71a631b66a257d19, findElement {using=xpath, value=//table//tr[td='Weight Maintenance']/td[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57196}, goog:processID: 25283, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57196/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d93dd620491e9fb71a631b66a257d19
+2026-05-07 15:53:08.515 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
+2026-05-07 16:04:41.950 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - 
+2026-05-07 16:04:55.430 [ERROR] [main] listeners.TestListener – FAILED: TC031_minValidHeight_Imperial_ShouldYieldResult - expected [true] but found [false]
+2026-05-07 16:05:19.937 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams off: actual=310, expected=290 expected [true] but found [false]
+2026-05-07 16:05:24.479 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-07 16:05:30.855 [ERROR] [main] listeners.TestListener – FAILED: TC060_printResultSectionIsClean - expected [true] but found [false]
+2026-05-07 16:15:41.159 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - 
+2026-05-07 16:20:03.266 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams off: actual=310, expected=290 expected [true] but found [false]
+2026-05-07 16:20:07.774 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-07 16:22:21.943 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-07 16:34:45.295 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]

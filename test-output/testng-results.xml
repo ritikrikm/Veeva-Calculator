@@ -1,24 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-07T13:56:59 EDT" name="Suite" finished-at="2026-05-07T13:57:12 EDT" duration-ms="13485">
+  <suite started-at="2026-05-07T16:34:12 EDT" name="Suite" finished-at="2026-05-07T16:34:56 EDT" duration-ms="44113">
     <groups>
+      <group name="boundary">
+        <method signature="CarbohydrateCalculatorTest.TC031_minValidHeight_Imperial_ShouldYieldResult()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC031_minValidHeight_Imperial_ShouldYieldResult" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- boundary -->
+      <group name="functional">
+        <method signature="CarbohydrateCalculatorTest.TC001_calculateCarbsForAverageAdultMale_Imperial()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC001_calculateCarbsForAverageAdultMale_Imperial" class="testCases.CarbohydrateCalculatorTest"/>
+        <method signature="CarbohydrateCalculatorTest.TC010_emptyWeightField_ShouldShowValidationError()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC010_emptyWeightField_ShouldShowValidationError" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- functional -->
+      <group name="input-validation">
+        <method signature="CarbohydrateCalculatorTest.TC010_emptyWeightField_ShouldShowValidationError()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC010_emptyWeightField_ShouldShowValidationError" class="testCases.CarbohydrateCalculatorTest"/>
+        <method signature="CarbohydrateCalculatorTest.TC021_specialCharactersInAgeField_ShouldShowValidationError()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC021_specialCharactersInAgeField_ShouldShowValidationError" class="testCases.CarbohydrateCalculatorTest"/>
+        <method signature="CarbohydrateCalculatorTest.TC031_minValidHeight_Imperial_ShouldYieldResult()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC031_minValidHeight_Imperial_ShouldYieldResult" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- input-validation -->
+      <group name="accessibility">
+        <method signature="CarbohydrateCalculatorTest.TC045_allFieldsHaveAssociatedLabels()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC045_allFieldsHaveAssociatedLabels" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- accessibility -->
+      <group name="positive">
+        <method signature="CarbohydrateCalculatorTest.TC001_calculateCarbsForAverageAdultMale_Imperial()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC001_calculateCarbsForAverageAdultMale_Imperial" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- positive -->
+      <group name="manual">
+        <method signature="CarbohydrateCalculatorTest.TC060_printResultSectionIsClean()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC060_printResultSectionIsClean" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- manual -->
+      <group name="calculation-accuracy">
+        <method signature="CarbohydrateCalculatorTest.TC038_MifflinStJeor_BMRFormulaVerification()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC038_MifflinStJeor_BMRFormulaVerification" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- calculation-accuracy -->
+      <group name="consistency">
+        <method signature="CarbohydrateCalculatorTest.TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- consistency -->
+      <group name="unit-conversion">
+        <method signature="CarbohydrateCalculatorTest.TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- unit-conversion -->
+      <group name="negative">
+        <method signature="CarbohydrateCalculatorTest.TC010_emptyWeightField_ShouldShowValidationError()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC010_emptyWeightField_ShouldShowValidationError" class="testCases.CarbohydrateCalculatorTest"/>
+        <method signature="CarbohydrateCalculatorTest.TC021_specialCharactersInAgeField_ShouldShowValidationError()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC021_specialCharactersInAgeField_ShouldShowValidationError" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- negative -->
+      <group name="usability">
+        <method signature="CarbohydrateCalculatorTest.TC060_printResultSectionIsClean()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC060_printResultSectionIsClean" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- usability -->
+      <group name="performance">
+        <method signature="CarbohydrateCalculatorTest.TC042_pageLoadsInUnder3Seconds()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC042_pageLoadsInUnder3Seconds" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- performance -->
+      <group name="happy-path">
+        <method signature="CarbohydrateCalculatorTest.TC001_calculateCarbsForAverageAdultMale_Imperial()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC001_calculateCarbsForAverageAdultMale_Imperial" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- happy-path -->
+      <group name="formula">
+        <method signature="CarbohydrateCalculatorTest.TC038_MifflinStJeor_BMRFormulaVerification()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC038_MifflinStJeor_BMRFormulaVerification" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- formula -->
+      <group name="ui-ux">
+        <method signature="CarbohydrateCalculatorTest.TC058_resultNotShownBeforeFirstCalculation()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" name="TC058_resultNotShownBeforeFirstCalculation" class="testCases.CarbohydrateCalculatorTest"/>
+      </group> <!-- ui-ux -->
     </groups>
-    <test started-at="2026-05-07T13:56:59 EDT" name="Test" finished-at="2026-05-07T13:57:12 EDT" duration-ms="13485">
+    <test started-at="2026-05-07T16:34:12 EDT" name="Test" finished-at="2026-05-07T16:34:56 EDT" duration-ms="44113">
       <class name="testCases.CarbohydrateCalculatorTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@47da3952]" started-at="2026-05-07T13:56:59 EDT" name="setUp" finished-at="2026-05-07T13:57:11 EDT" duration-ms="12645" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:12 EDT" name="setUp" finished-at="2026-05-07T16:34:16 EDT" duration-ms="3863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC001_calculateCarbsForAverageAdultMale_Imperial()[pri:0, instance:testCases.CarbohydrateCalculatorTest@47da3952]" started-at="2026-05-07T13:57:11 EDT" name="TC001_calculateCarbsForAverageAdultMale_Imperial" finished-at="2026-05-07T13:57:11 EDT" duration-ms="20" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:16 EDT" name="setupPage" finished-at="2026-05-07T16:34:17 EDT" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC001_calculateCarbsForAverageAdultMale_Imperial()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:17 EDT" name="TC001_calculateCarbsForAverageAdultMale_Imperial" finished-at="2026-05-07T16:34:19 EDT" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_calculateCarbsForAverageAdultMale_Imperial -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:19 EDT" name="tearDown" finished-at="2026-05-07T16:34:19 EDT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:19 EDT" name="setUp" finished-at="2026-05-07T16:34:20 EDT" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:20 EDT" name="setupPage" finished-at="2026-05-07T16:34:21 EDT" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC010_emptyWeightField_ShouldShowValidationError()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:21 EDT" name="TC010_emptyWeightField_ShouldShowValidationError" finished-at="2026-05-07T16:34:23 EDT" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC010_emptyWeightField_ShouldShowValidationError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:23 EDT" name="tearDown" finished-at="2026-05-07T16:34:23 EDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:23 EDT" name="setUp" finished-at="2026-05-07T16:34:25 EDT" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:25 EDT" name="setupPage" finished-at="2026-05-07T16:34:25 EDT" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC021_specialCharactersInAgeField_ShouldShowValidationError()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:25 EDT" name="TC021_specialCharactersInAgeField_ShouldShowValidationError" finished-at="2026-05-07T16:34:27 EDT" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC021_specialCharactersInAgeField_ShouldShowValidationError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:27 EDT" name="tearDown" finished-at="2026-05-07T16:34:28 EDT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:28 EDT" name="setUp" finished-at="2026-05-07T16:34:29 EDT" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:29 EDT" name="setupPage" finished-at="2026-05-07T16:34:29 EDT" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC031_minValidHeight_Imperial_ShouldYieldResult()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:29 EDT" name="TC031_minValidHeight_Imperial_ShouldYieldResult" finished-at="2026-05-07T16:34:31 EDT" duration-ms="1609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC031_minValidHeight_Imperial_ShouldYieldResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:31 EDT" name="tearDown" finished-at="2026-05-07T16:34:31 EDT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:31 EDT" name="setUp" finished-at="2026-05-07T16:34:32 EDT" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:32 EDT" name="setupPage" finished-at="2026-05-07T16:34:33 EDT" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:33 EDT" name="TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance" finished-at="2026-05-07T16:34:37 EDT" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:37 EDT" name="tearDown" finished-at="2026-05-07T16:34:37 EDT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:37 EDT" name="setUp" finished-at="2026-05-07T16:34:38 EDT" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:38 EDT" name="setupPage" finished-at="2026-05-07T16:34:39 EDT" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC038_MifflinStJeor_BMRFormulaVerification()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:39 EDT" name="TC038_MifflinStJeor_BMRFormulaVerification" finished-at="2026-05-07T16:34:41 EDT" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC038_MifflinStJeor_BMRFormulaVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:41 EDT" name="tearDown" finished-at="2026-05-07T16:34:41 EDT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:41 EDT" name="setUp" finished-at="2026-05-07T16:34:42 EDT" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:42 EDT" name="setupPage" finished-at="2026-05-07T16:34:43 EDT" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC042_pageLoadsInUnder3Seconds()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:43 EDT" name="TC042_pageLoadsInUnder3Seconds" finished-at="2026-05-07T16:34:43 EDT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC042_pageLoadsInUnder3Seconds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:43 EDT" name="tearDown" finished-at="2026-05-07T16:34:43 EDT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:43 EDT" name="setUp" finished-at="2026-05-07T16:34:44 EDT" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:44 EDT" name="setupPage" finished-at="2026-05-07T16:34:45 EDT" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC045_allFieldsHaveAssociatedLabels()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:45 EDT" name="TC045_allFieldsHaveAssociatedLabels" finished-at="2026-05-07T16:34:45 EDT" duration-ms="17" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "pages.CarbohydrateCalculatorPage.selectUSUnits()" because "this.page" is null]]>
+              <![CDATA[Missing label for: Age (cage) expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.CarbohydrateCalculatorPage.selectUSUnits()" because "this.page" is null
-at testCases.CarbohydrateCalculatorTest.TC001_calculateCarbsForAverageAdultMale_Imperial(CarbohydrateCalculatorTest.java:15)
+              <![CDATA[java.lang.AssertionError: Missing label for: Age (cage) expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.CarbohydrateCalculatorTest.TC045_allFieldsHaveAssociatedLabels(CarbohydrateCalculatorTest.java:157)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -47,44 +215,47 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001_calculateCarbsForAverageAdultMale_Imperial -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@47da3952]" started-at="2026-05-07T13:57:12 EDT" name="tearDown" finished-at="2026-05-07T13:57:12 EDT" duration-ms="137" status="PASS">
+        </test-method> <!-- TC045_allFieldsHaveAssociatedLabels -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:45 EDT" name="tearDown" finished-at="2026-05-07T16:34:45 EDT" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownSuite(org.testng.ITestContext)[pri:0, instance:testCases.CarbohydrateCalculatorTest@47da3952]" started-at="2026-05-07T13:57:12 EDT" name="tearDownSuite" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1778176632526" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Native Injection is NOT supported for @AfterSuite annotated tearDownSuite.
-For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Native Injection is NOT supported for @AfterSuite annotated tearDownSuite.
-For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
-at org.testng.internal.Parameters.createParameters(Parameters.java:699)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:386)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:45 EDT" name="setUp" finished-at="2026-05-07T16:34:46 EDT" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:46 EDT" name="setupPage" finished-at="2026-05-07T16:34:47 EDT" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC058_resultNotShownBeforeFirstCalculation()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:47 EDT" name="TC058_resultNotShownBeforeFirstCalculation" finished-at="2026-05-07T16:34:52 EDT" duration-ms="5235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC058_resultNotShownBeforeFirstCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:52 EDT" name="tearDown" finished-at="2026-05-07T16:34:52 EDT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:52 EDT" name="setUp" finished-at="2026-05-07T16:34:53 EDT" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:53 EDT" name="setupPage" finished-at="2026-05-07T16:34:54 EDT" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="TC060_printResultSectionIsClean()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:54 EDT" name="TC060_printResultSectionIsClean" finished-at="2026-05-07T16:34:56 EDT" duration-ms="1755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC060_printResultSectionIsClean -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:56 EDT" name="tearDown" finished-at="2026-05-07T16:34:56 EDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:testCases.CarbohydrateCalculatorTest@1568159]" started-at="2026-05-07T16:34:56 EDT" name="tearDownSuite" finished-at="2026-05-07T16:34:56 EDT" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->

@@ -19,7 +19,7 @@ public abstract class BasePage {
 	        log.debug("Page object initialised: {}", getClass().getSimpleName());
 	    }
 	    
-	    protected void navigateTo(String url) {
+	    public void navigateTo(String url) {
 	        log.info("Navigating to: {}", url);
 	        driver.get(url);
 	    }
