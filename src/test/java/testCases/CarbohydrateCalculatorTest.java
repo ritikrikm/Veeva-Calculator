@@ -23,7 +23,7 @@ public class CarbohydrateCalculatorTest extends BaseTest {
 	    page = new CarbohydrateCalculatorPage(getDriver());
 	    page.navigateTo(ConfigReader.get("app.url"));
 	}
-	 // TC-001: Golden-path happy-path positive test (Imperial units, average male)
+	// TC-001: Golden-path happy-path positive test (Imperial units, average male)
     @Test(groups = {"functional", "positive", "happy-path"})
     public void TC001_calculateCarbsForAverageAdultMale_Imperial() {
     	
@@ -39,9 +39,9 @@ public class CarbohydrateCalculatorTest extends BaseTest {
         AssertJUnit.assertTrue(page.isResultDisplayed());
         AssertJUnit.assertTrue(page.getResultText().contains("carbohydrate") || page.getResultText().contains("Carbohydrate"));
     }
- // TC-010: Weight field empty (should show validation error)
+ // TC-008: Weight field empty (should show validation error)
     @Test(groups = {"functional", "negative", "input-validation"})
-    public void TC010_emptyWeightField_ShouldShowValidationError() {
+    public void TC008_emptyWeightField_ShouldShowValidationError() {
         page.selectUSUnits();
         page.selectMale();
         page.enterAge("30");
@@ -52,9 +52,9 @@ public class CarbohydrateCalculatorTest extends BaseTest {
         page.clickCalculate();
         Assert.assertTrue(page.isErrorDisplayed());
     }
-    // TC-021: Special characters in Age field (should reject/validate)
+    // TC-018: Special characters in Age field (should reject/validate)
     @Test(groups = {"input-validation", "negative"})
-    public void TC021_specialCharactersInAgeField_ShouldShowValidationError() {
+    public void TC018_specialCharactersInAgeField_ShouldShowValidationError() {
         page.selectUSUnits();
         page.selectMale();
         page.enterAge("!@#$");
@@ -65,23 +65,23 @@ public class CarbohydrateCalculatorTest extends BaseTest {
         page.clickCalculate();
         Assert.assertTrue(page.isErrorDisplayed());
     }
-    // TC-031: Minimum valid height (4'0") in Imperial units, valid inputs
+    // TC-023: 0 Pound Weight, valid inputs
     @Test(groups = {"boundary", "input-validation"})
-    public void TC031_minValidHeight_Imperial_ShouldYieldResult() {
+    public void TC023_minValidHeight_Imperial_ShouldYieldResult() {
         page.selectUSUnits();
         page.selectMale();
         page.enterAge("30");
         page.enterHeightFeet("4");
         page.enterHeightInches("0");
-        page.enterWeightPounds("110");
+        page.enterWeightPounds("0");
         page.selectActivity("Moderate: exercise 4-5 times/week");
         page.clickCalculate();
-        Assert.assertTrue(page.isResultDisplayed());
+        Assert.assertFalse(page.isResultDisplayed());
     }
     
-   // TC-037: Unit conversion - same data in US and metric (~5'10, 175 lbs = 178cm, 79.4kg)
+   // TC-028: Unit conversion - same data in US and metric (~5'10, 175 lbs = 178cm, 79.4kg)
     @Test(groups = {"unit-conversion", "consistency"})
-    public void TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance() throws IOException {
+    public void TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance() throws IOException {
     	        // Imperial
     page.selectUSUnits();
     page.selectMale();
@@ -113,9 +113,9 @@ public class CarbohydrateCalculatorTest extends BaseTest {
     	        
     	    }
     	
-    // TC-038: Calculation accuracy (manual formula verification, 30M, 5'10", 175lb, sedentary)
+    // TC-029: Calculation accuracy (manual formula verification, 30M, 5'10", 175lb, sedentary)
     @Test(groups = {"calculation-accuracy", "formula"})
-    public void TC038_MifflinStJeor_BMRFormulaVerification() {
+    public void TC029_MifflinStJeor_BMRFormulaVerification() {
         page.selectUSUnits();
         page.selectMale();
         page.enterAge("30");
@@ -142,18 +142,18 @@ public class CarbohydrateCalculatorTest extends BaseTest {
             "Carb grams off: actual=" + actualGrams + ", expected=" + expectedGrams
         );
     }
-    // TC-042: Page loads within 3 seconds (performance)
+    // TC-033: Page loads within 3 seconds (performance)
     @Test(groups = {"performance"})
-    public void TC042_pageLoadsInUnder3Seconds() {
+    public void TC033_pageLoadsInUnder3Seconds() {
         long start = System.currentTimeMillis();
         getDriver().get(ConfigReader.get("app.url"));
         long duration = System.currentTimeMillis() - start;
         Assert.assertTrue(duration < 3000, "Page load <= 3s, was: " + duration + "ms");
     }
 
-    // TC-045: Accessibility - All fields have <label>
+    // TC-036: Accessibility - All fields have <label>
     @Test(groups = {"accessibility"})
-    public void TC045_allFieldsHaveAssociatedLabels() {
+    public void TC036_allFieldsHaveAssociatedLabels() {
         Assert.assertTrue(hasLabelFor("cage"),        "Missing label for: Age (cage)");
         Assert.assertTrue(hasLabelFor("cheightfeet"), "Missing label for: Height - Feet (cheightfeet)");
         Assert.assertTrue(hasLabelFor("cheightinch"), "Missing label for: Height - Inches (cheightinch)");
@@ -161,9 +161,9 @@ public class CarbohydrateCalculatorTest extends BaseTest {
         Assert.assertTrue(hasLabelFor("cactivity"),   "Missing label for: Activity (cactivity)");
     }
 
-    // TC-060: Print/share result - print preview looks clean
+    // TC-050: Print/share result - print preview looks clean
     @Test(groups = {"usability", "manual"})
-    public void TC060_printResultSectionIsClean() {
+    public void TC050_printResultSectionIsClean() {
         page.selectUSUnits();
         page.selectMale();
         page.enterAge("30");
@@ -177,9 +177,9 @@ public class CarbohydrateCalculatorTest extends BaseTest {
         Assert.assertTrue(page.isResultDisplayed());
     }
 
-    // TC-058: Fresh page load : result not visible before any calculation
+    // TC-048: Fresh page load : result not visible before any calculation
     @Test(groups = {"ui-ux"})
-    public void TC058_resultNotShownBeforeFirstCalculation() {
+    public void TC048_resultNotShownBeforeFirstCalculation() {
         Assert.assertFalse(page.isResultSectionPresentAndDisplayed(), "Result section should not display on fresh page load");
     }
     

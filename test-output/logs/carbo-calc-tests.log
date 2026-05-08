@@ -1,241 +1,1186 @@
-2026-05-07 13:57:11.735 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - Cannot invoke "pages.CarbohydrateCalculatorPage.selectUSUnits()" because "this.page" is null
-2026-05-07 14:04:01.717 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - no such element: Unable to locate element: {"method":"css selector","selector":"input[name='csex'][value='1']"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e0d5f9b349362f1831700a707e47c6b5, findElement {using=css selector, value=input[name='csex'][value='1']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58894}, goog:processID: 19790, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58894/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e0d5f9b349362f1831700a707e47c6b5
-2026-05-07 14:05:53.269 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - no such element: Unable to locate element: {"method":"css selector","selector":"#cweightpound"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [44d43df343bec251d8f7b4f63ac8447c, findElement {using=id, value=cweightpound}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59433}, goog:processID: 19885, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59433/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 44d43df343bec251d8f7b4f63ac8447c
-2026-05-07 14:20:32.781 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='US Units']"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a2c9b70ec0b83f44fa665900cd14b4e7, findElement {using=xpath, value=//a[normalize-space()='US Units']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63136}, goog:processID: 20345, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63136/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a2c9b70ec0b83f44fa665900cd14b4e7
-2026-05-07 14:24:30.283 [ERROR] [main] listeners.TestListener – FAILED: TC010_emptyWeightField_ShouldShowValidationError - no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'error') or contains(@class,'alert')]"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [19cb7edde3f8e2cbe6d0947043e25400, findElement {value=//*[contains(@class,'error') or contains(@class,'alert')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64138}, goog:processID: 20476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64138/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 19cb7edde3f8e2cbe6d0947043e25400
-2026-05-07 14:24:34.500 [ERROR] [main] listeners.TestListener – FAILED: TC021_specialCharactersInAgeField_ShouldShowValidationError - no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'error') or contains(@class,'alert')]"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6b52a4046a062a3a2c2ce56fd97ef0bf, findElement {value=//*[contains(@class,'error') or contains(@class,'alert')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64202}, goog:processID: 20499, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64202/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6b52a4046a062a3a2c2ce56fd97ef0bf
-2026-05-07 14:24:44.184 [ERROR] [main] listeners.TestListener – FAILED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance - no such element: Unable to locate element: {"method":"css selector","selector":"#cheightcm"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b5fa869a4e3497ca9b7a1a81abc4ba50, findElement {value=cheightcm, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64313}, goog:processID: 20541, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64313/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b5fa869a4e3497ca9b7a1a81abc4ba50
-2026-05-07 14:28:05.190 [ERROR] [main] listeners.TestListener – FAILED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance - no such element: Unable to locate element: {"method":"css selector","selector":"#cweightkg"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b28ff95889d5b7ac00d7b686eb58ed1, findElement {value=cweightkg, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65406}, goog:processID: 20745, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65406/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b28ff95889d5b7ac00d7b686eb58ed1
-2026-05-07 14:43:03.375 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
-2026-05-07 14:43:04.970 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
-2026-05-07 14:43:06.231 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
-2026-05-07 14:43:07.522 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
-2026-05-07 14:43:08.822 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
-2026-05-07 14:43:10.188 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
-2026-05-07 14:43:11.520 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
-2026-05-07 14:43:12.959 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
-2026-05-07 14:43:14.223 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
-2026-05-07 14:43:15.434 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
-2026-05-07 14:43:53.871 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
-2026-05-07 14:43:55.479 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
-2026-05-07 14:43:56.824 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
-2026-05-07 14:43:58.417 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
-2026-05-07 14:43:59.799 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
-2026-05-07 14:44:01.320 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
-2026-05-07 14:44:02.537 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
-2026-05-07 14:44:03.980 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
-2026-05-07 14:44:05.514 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
-2026-05-07 14:44:06.904 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
-2026-05-07 14:46:29.989 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
-2026-05-07 14:46:31.739 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
-2026-05-07 14:46:33.197 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
-2026-05-07 14:46:34.523 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
-2026-05-07 14:46:36.117 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
-2026-05-07 14:46:37.600 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
-2026-05-07 14:46:38.842 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
-2026-05-07 14:46:40.087 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
-2026-05-07 14:46:41.420 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
-2026-05-07 14:46:42.696 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
-2026-05-07 14:47:06.568 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
-2026-05-07 14:47:08.125 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
-2026-05-07 14:47:09.490 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
-2026-05-07 14:47:10.897 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
-2026-05-07 14:47:12.216 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
-2026-05-07 14:47:13.621 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
-2026-05-07 14:47:15.246 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
-2026-05-07 14:47:16.893 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
-2026-05-07 14:47:18.296 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
-2026-05-07 14:47:19.594 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
-2026-05-07 14:51:02.588 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
-2026-05-07 14:51:04.102 [WARN ] [main] listeners.TestListener – SKIPPED: TC010_emptyWeightField_ShouldShowValidationError
-2026-05-07 14:51:05.515 [WARN ] [main] listeners.TestListener – SKIPPED: TC021_specialCharactersInAgeField_ShouldShowValidationError
-2026-05-07 14:51:06.943 [WARN ] [main] listeners.TestListener – SKIPPED: TC031_minValidHeight_Imperial_ShouldYieldResult
-2026-05-07 14:51:08.370 [WARN ] [main] listeners.TestListener – SKIPPED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance
-2026-05-07 14:51:09.656 [WARN ] [main] listeners.TestListener – SKIPPED: TC038_MifflinStJeor_BMRFormulaVerification
-2026-05-07 14:51:10.905 [WARN ] [main] listeners.TestListener – SKIPPED: TC042_pageLoadsInUnder3Seconds
-2026-05-07 14:51:12.127 [WARN ] [main] listeners.TestListener – SKIPPED: TC045_allFieldsHaveAssociatedLabels
-2026-05-07 14:51:13.337 [WARN ] [main] listeners.TestListener – SKIPPED: TC058_resultNotShownBeforeFirstCalculation
-2026-05-07 14:51:14.611 [WARN ] [main] listeners.TestListener – SKIPPED: TC060_printResultSectionIsClean
-2026-05-07 14:56:18.294 [ERROR] [main] listeners.TestListener – FAILED: TC031_minValidHeight_Imperial_ShouldYieldResult - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6029da6dcf97d64bc3d3ffef4fc69555, findElement {using=xpath, value=//h2[normalize-space()='Result']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56909}, goog:processID: 22329, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56909/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6029da6dcf97d64bc3d3ffef4fc69555
-2026-05-07 14:56:29.549 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams ~=277+-10g, found: 0 expected [true] but found [false]
-2026-05-07 14:56:34.284 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
-2026-05-07 14:56:36.538 [ERROR] [main] listeners.TestListener – FAILED: TC058_resultNotShownBeforeFirstCalculation - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c748d406064bebcf13b849670dd3a0ee, findElement {using=xpath, value=//h2[normalize-space()='Result']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57156}, goog:processID: 22425, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57156/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c748d406064bebcf13b849670dd3a0ee
-2026-05-07 15:00:12.935 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams ~=277+-10g, found: 0 expected [true] but found [false]
-2026-05-07 15:00:17.646 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
-2026-05-07 15:00:20.361 [ERROR] [main] listeners.TestListener – FAILED: TC058_resultNotShownBeforeFirstCalculation - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8b182d4fb7d709194a3bd153b97752cc, findElement {using=xpath, value=//h2[normalize-space()='Result']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58507}, goog:processID: 22773, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58507/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b182d4fb7d709194a3bd153b97752cc
-2026-05-07 15:14:34.842 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - For input string: "31010930683"
-2026-05-07 15:14:39.296 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
-2026-05-07 15:14:41.545 [ERROR] [main] listeners.TestListener – FAILED: TC058_resultNotShownBeforeFirstCalculation - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4f212d3db9410c5feab8f0074c1b45e1, findElement {using=xpath, value=//h2[normalize-space()='Result']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62314}, goog:processID: 23320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62314/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4f212d3db9410c5feab8f0074c1b45e1
-2026-05-07 15:20:03.836 [ERROR] [main] listeners.TestListener – FAILED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance - stale element reference: stale element not found
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d472fb879b82e7ae7db2e2ec3d478723, clickElement {id=f.7FA4DF9DBE3C0BB42B597573960A583A.d.1157CF6DE9296846D1ADE1F7B8C8CE33.e.26}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63897}, goog:processID: 23574, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63897/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (d472fb879b82e7ae7db2e2ec3d478723)] -> xpath: //label[@for='csex1']]
-Session ID: d472fb879b82e7ae7db2e2ec3d478723
-2026-05-07 15:20:09.798 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - For input string: "31010930683"
-2026-05-07 15:20:14.761 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
-2026-05-07 15:22:51.057 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams ~=277+-10g, found: 310 expected [true] but found [false]
-2026-05-07 15:24:56.626 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
-2026-05-07 15:39:04.442 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
-2026-05-07 15:50:35.630 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - stale element reference: stale element not found
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [23b597fbd110f8b69ed1d35bbd676902, clickElement {id=f.EB2E2734475E126BFCAF471822A4B4FF.d.9773FE3DF1D6CFCFC71E7F5DE2644255.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56012}, goog:processID: 24896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56012/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (23b597fbd110f8b69ed1d35bbd676902)] -> xpath: //label[@for='csex1']]
-Session ID: 23b597fbd110f8b69ed1d35bbd676902
-2026-05-07 15:50:49.341 [ERROR] [main] listeners.TestListener – FAILED: TC031_minValidHeight_Imperial_ShouldYieldResult - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fbf2f43f4413cdd0962240452fdcbfbd, findElement {value=//h2[normalize-space()='Result'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56197}, goog:processID: 24965, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56197/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fbf2f43f4413cdd0962240452fdcbfbd
-2026-05-07 15:51:02.836 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams off: actual=310, expected=290 expected [true] but found [false]
-2026-05-07 15:51:08.017 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
-2026-05-07 15:51:14.024 [ERROR] [main] listeners.TestListener – FAILED: TC060_printResultSectionIsClean - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Result']"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6836cfbefca02f37347b88d044867132, findElement {value=//h2[normalize-space()='Result'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56539}, goog:processID: 25085, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56539/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6836cfbefca02f37347b88d044867132
-2026-05-07 15:52:43.129 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - stale element reference: stale element not found
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c344666c5edfc61550ad35691146947a, clickElement {id=f.E64518D9B03D0889CD21DA0304D455B9.d.EC9E76981E056E9E78E23EF1121C908E.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56941}, goog:processID: 25177, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56941/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (c344666c5edfc61550ad35691146947a)] -> xpath: //label[@for='csex1']]
-Session ID: c344666c5edfc61550ad35691146947a
-2026-05-07 15:52:59.027 [ERROR] [main] listeners.TestListener – FAILED: TC037_equivalentImperialAndMetricInputs_ResultsWithinTolerance - stale element reference: stale element not found
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ca79b3cf949280b3fa0f891075f70fe, clickElement {id=f.110A453CAC5E4C7DEA279FFBFB59E6CF.d.414ACDD3A4F2576C899F914CBA80BAEF.e.30}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57155}, goog:processID: 25267, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57155/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (6ca79b3cf949280b3fa0f891075f70fe)] -> xpath: //label[@for='csex1']]
-Session ID: 6ca79b3cf949280b3fa0f891075f70fe
-2026-05-07 15:53:03.285 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - no such element: Unable to locate element: {"method":"xpath","selector":"//table//tr[td='Weight Maintenance']/td[4]"}
-  (Session info: chrome=147.0.7727.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d93dd620491e9fb71a631b66a257d19, findElement {using=xpath, value=//table//tr[td='Weight Maintenance']/td[4]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/wz/pwryzldd61s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57196}, goog:processID: 25283, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57196/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d93dd620491e9fb71a631b66a257d19
-2026-05-07 15:53:08.515 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - expected [true] but found [false]
-2026-05-07 16:04:41.950 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - 
-2026-05-07 16:04:55.430 [ERROR] [main] listeners.TestListener – FAILED: TC031_minValidHeight_Imperial_ShouldYieldResult - expected [true] but found [false]
-2026-05-07 16:05:19.937 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams off: actual=310, expected=290 expected [true] but found [false]
-2026-05-07 16:05:24.479 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
-2026-05-07 16:05:30.855 [ERROR] [main] listeners.TestListener – FAILED: TC060_printResultSectionIsClean - expected [true] but found [false]
-2026-05-07 16:15:41.159 [ERROR] [main] listeners.TestListener – FAILED: TC001_calculateCarbsForAverageAdultMale_Imperial - 
-2026-05-07 16:20:03.266 [ERROR] [main] listeners.TestListener – FAILED: TC038_MifflinStJeor_BMRFormulaVerification - Carb grams off: actual=310, expected=290 expected [true] but found [false]
-2026-05-07 16:20:07.774 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
-2026-05-07 16:22:21.943 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
-2026-05-07 16:34:45.295 [ERROR] [main] listeners.TestListener – FAILED: TC045_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-08 02:28:05.049 [ERROR] [main] listeners.TestListener – FAILED: TC036_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-08 02:35:33.686 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_023533.html
+2026-05-08 02:35:33.854 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:35:33.921 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:35:33.923 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:35:39.235 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:35:39.247 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:35:39.247 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:35:40.677 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:35:40.716 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:35:42.232 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:35:42.985 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:35:44.442 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:35:45.044 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:35:45.499 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:35:46.037 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:35:47.767 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:35:49.175 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:35:49.306 [INFO ] [main] listeners.TestListener – PASSED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:35:49.361 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:35:49.365 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:35:49.956 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:35:49.957 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:35:53.439 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:35:53.442 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:35:53.442 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:35:54.730 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:35:54.734 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:35:57.537 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:35:57.831 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:35:58.950 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:35:59.382 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:35:59.748 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:36:00.153 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:36:00.628 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:36:01.293 [INFO ] [main] listeners.TestListener – PASSED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:36:01.295 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:36:01.295 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:36:01.790 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:36:01.790 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:36:04.838 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:36:04.840 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:36:04.840 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:36:06.089 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:36:06.094 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:36:06.785 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:36:08.160 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:36:09.256 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:36:09.626 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:36:10.119 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:36:10.630 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:36:11.052 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:36:11.742 [INFO ] [main] listeners.TestListener – PASSED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:36:11.745 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:36:11.746 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:36:12.174 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:36:12.174 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:36:15.249 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:36:15.251 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:36:15.251 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:36:16.484 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:36:16.495 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:36:17.166 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:36:18.330 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:36:18.889 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:36:19.162 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:36:19.668 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:36:20.459 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:36:20.887 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:36:26.779 [INFO ] [main] listeners.TestListener – PASSED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:36:26.781 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:36:26.781 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:36:27.075 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:36:27.076 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:36:29.014 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:36:29.015 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:36:29.015 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:36:29.882 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:36:29.885 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:36:30.308 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:36:30.482 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:36:31.631 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:36:32.183 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:36:32.441 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:36:32.677 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:36:32.966 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:36:33.398 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:36:33.608 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:36:33.608 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:36:33.717 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='Metric Units']
+2026-05-08 02:36:34.695 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:36:34.884 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:36:35.048 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightmeter
+2026-05-08 02:36:35.188 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: ckg
+2026-05-08 02:36:35.341 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:36:35.856 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:36:36.208 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:36:36.258 [INFO ] [main] listeners.TestListener – PASSED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:36:36.260 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:36:36.260 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:36:36.655 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:36:36.656 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:36:38.846 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:36:38.847 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:36:38.847 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:36:39.892 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:36:39.894 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:36:40.304 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:36:40.677 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:36:42.230 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:36:42.498 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:36:42.844 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:36:43.133 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:36:43.453 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:36:43.592 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //table//tr[td='Weight Maintenance']/td[4]
+2026-05-08 02:36:43.966 [INFO ] [main] listeners.TestListener – PASSED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:36:43.971 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:36:43.972 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:36:44.288 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:36:44.288 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:36:46.571 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:36:46.573 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:36:46.574 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:36:47.823 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:36:48.159 [INFO ] [main] listeners.TestListener – PASSED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:36:48.160 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:36:48.161 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:36:48.397 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:36:48.398 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:36:50.691 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:36:50.693 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:36:50.693 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:36:51.666 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:36:51.706 [ERROR] [main] listeners.TestListener – FAILED: TC036_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-08 02:36:52.006 [INFO ] [main] listeners.TestListener – Screenshot embedded in report for: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:36:52.007 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:36:52.007 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:36:52.234 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:36:52.234 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:36:54.546 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:36:54.547 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:36:54.547 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:36:55.541 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:37:00.823 [INFO ] [main] listeners.TestListener – PASSED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:37:00.825 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:37:00.825 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:37:01.073 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:37:01.073 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:37:03.100 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:37:03.101 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:37:03.101 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:37:03.217 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:37:03.219 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:37:04.117 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:37:04.692 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:37:05.583 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:37:06.067 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:37:06.359 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:37:06.624 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:37:06.908 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:37:07.372 [INFO ] [main] listeners.TestListener – PASSED: TC050_printResultSectionIsClean
+2026-05-08 02:37:07.375 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:37:07.375 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:37:07.762 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 9, Failed: 1, Skipped: 0 ===
+2026-05-08 02:37:07.766 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.
+2026-05-08 02:42:30.211 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_024229.html
+2026-05-08 02:42:30.346 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:42:30.396 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:42:30.398 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:42:34.555 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:42:34.567 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:42:34.567 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:42:35.727 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:42:35.757 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:42:36.398 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:42:37.759 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:42:38.430 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:42:38.726 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:42:39.040 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:42:39.332 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:42:39.707 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:42:40.374 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:42:40.465 [INFO ] [main] listeners.TestListener – PASSED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:42:40.478 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:42:41.024 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:42:41.516 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:42:41.517 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:42:44.594 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:42:44.596 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:42:44.597 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:42:45.935 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:42:45.943 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:42:46.308 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:42:48.282 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:42:50.022 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:42:50.424 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:42:50.805 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:42:51.295 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:42:51.872 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:42:52.659 [INFO ] [main] listeners.TestListener – PASSED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:42:52.674 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:42:52.769 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:42:53.285 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:42:53.285 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:42:56.715 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:42:56.717 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:42:56.718 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:42:58.016 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:42:58.019 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:42:58.943 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:43:00.393 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:43:03.050 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:43:03.443 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:43:03.876 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:43:04.265 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:43:04.625 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:43:05.584 [INFO ] [main] listeners.TestListener – PASSED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:43:05.586 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:43:05.632 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:43:06.112 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:43:06.113 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:43:09.482 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:43:09.484 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:43:09.484 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:43:09.690 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:43:09.704 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:43:12.061 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:43:13.813 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:43:14.699 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:43:15.029 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:43:15.257 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:43:15.431 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:43:15.878 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:43:21.430 [INFO ] [main] listeners.TestListener – PASSED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:43:21.432 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:43:21.493 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:43:22.135 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:43:22.136 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:43:25.073 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:43:25.075 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:43:25.075 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:43:26.332 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:43:26.336 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:43:28.613 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:43:28.902 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:43:29.401 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:43:29.959 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:43:30.355 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:43:30.620 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:43:31.003 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:43:31.282 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:43:32.726 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:43:32.726 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:43:34.650 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='Metric Units']
+2026-05-08 02:43:36.022 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:43:36.284 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:43:36.817 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightmeter
+2026-05-08 02:43:37.230 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: ckg
+2026-05-08 02:43:37.487 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:43:37.819 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:43:38.058 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:43:38.651 [INFO ] [main] listeners.TestListener – PASSED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:43:38.656 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:43:38.735 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:43:39.372 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:43:39.372 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:43:42.280 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:43:42.282 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:43:42.282 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:43:43.377 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:43:43.381 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:43:44.299 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:43:45.365 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:43:45.931 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:43:46.266 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:43:46.563 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:43:46.820 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:43:47.118 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:43:47.271 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //table//tr[td='Weight Maintenance']/td[4]
+2026-05-08 02:43:47.956 [INFO ] [main] listeners.TestListener – PASSED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:43:47.959 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:43:48.018 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:43:48.352 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:43:48.352 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:43:51.323 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:43:51.325 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:43:51.325 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:43:52.527 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:43:52.855 [INFO ] [main] listeners.TestListener – PASSED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:43:52.856 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:43:52.879 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:43:53.141 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:43:53.142 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:43:55.733 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:43:55.734 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:43:55.735 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:43:56.778 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:43:56.827 [ERROR] [main] listeners.TestListener – FAILED: TC036_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-08 02:43:57.146 [INFO ] [main] listeners.TestListener – Screenshot embedded in report for: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:43:57.149 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:43:57.278 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:43:57.573 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:43:57.573 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:43:59.956 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:43:59.958 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:43:59.958 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:44:01.065 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:44:06.442 [INFO ] [main] listeners.TestListener – PASSED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:44:06.444 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:44:06.482 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:44:06.849 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:44:06.850 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:44:08.720 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:44:08.720 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:44:08.720 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:44:09.678 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:44:09.681 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:44:09.822 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:44:11.142 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:44:11.827 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:44:12.042 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:44:12.291 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:44:12.483 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:44:12.718 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:44:13.261 [INFO ] [main] listeners.TestListener – PASSED: TC050_printResultSectionIsClean
+2026-05-08 02:44:13.262 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:44:13.319 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:44:13.700 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 9, Failed: 1, Skipped: 0 ===
+2026-05-08 02:44:13.706 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.
+2026-05-08 02:45:39.548 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_024539.html
+2026-05-08 02:45:39.717 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:45:39.773 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:45:39.775 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:45:44.761 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:45:44.772 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:45:44.773 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:45:46.105 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:45:46.132 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:45:46.818 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:45:48.272 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:45:49.525 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:45:49.804 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:45:50.195 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:45:50.506 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:45:50.845 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:45:51.546 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:45:51.628 [INFO ] [main] listeners.TestListener – PASSED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:45:51.640 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:45:53.869 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:45:54.576 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:45:54.584 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:45:57.840 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:45:57.841 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:45:57.842 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:45:59.069 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:45:59.081 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:45:59.768 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:46:02.098 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:46:02.736 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:46:03.010 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:46:03.336 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:46:03.659 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:46:04.015 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:46:04.712 [INFO ] [main] listeners.TestListener – PASSED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:46:04.714 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:46:04.879 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:46:05.632 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:46:05.632 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:46:08.701 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:46:08.703 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:46:08.703 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:46:10.087 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:46:10.091 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:46:10.789 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:46:12.199 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:46:14.380 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:46:14.821 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:46:15.159 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:46:15.689 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:46:16.108 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:46:16.842 [INFO ] [main] listeners.TestListener – PASSED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:46:16.845 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:46:16.993 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:46:17.583 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:46:17.584 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:46:21.780 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:46:21.783 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:46:21.783 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:46:23.151 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:46:23.154 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:46:25.346 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:46:27.507 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:46:28.075 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:46:28.352 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:46:28.621 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:46:28.891 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:46:29.244 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:46:34.999 [INFO ] [main] listeners.TestListener – PASSED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:46:35.001 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:46:35.095 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:46:35.824 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:46:35.824 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:46:39.077 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:46:39.078 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:46:39.079 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:46:40.205 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:46:40.208 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:46:41.106 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:46:42.762 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:46:43.740 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:46:43.982 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:46:44.243 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:46:44.616 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:46:44.986 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:46:45.209 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:46:45.900 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:46:45.900 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:46:49.429 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='Metric Units']
+2026-05-08 02:46:50.368 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:46:50.668 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:46:51.146 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightmeter
+2026-05-08 02:46:51.423 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: ckg
+2026-05-08 02:46:51.674 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:46:51.969 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:46:52.170 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:46:52.742 [INFO ] [main] listeners.TestListener – PASSED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:46:52.744 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:46:52.916 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:46:53.803 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:46:53.803 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:46:57.276 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:46:57.279 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:46:57.279 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:46:57.490 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:46:57.493 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:46:59.502 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:47:01.073 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:47:02.261 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:47:02.576 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:47:02.961 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:47:03.425 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:47:03.866 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:47:04.044 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //table//tr[td='Weight Maintenance']/td[4]
+2026-05-08 02:47:04.582 [INFO ] [main] listeners.TestListener – PASSED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:47:04.584 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:47:04.727 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:47:05.550 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:47:05.550 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:47:09.035 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:47:09.037 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:47:09.038 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:47:10.513 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:47:11.620 [INFO ] [main] listeners.TestListener – PASSED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:47:11.627 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:47:11.977 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:47:12.459 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:47:12.460 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:47:16.189 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:47:16.190 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:47:16.191 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:47:17.460 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:47:17.524 [ERROR] [main] listeners.TestListener – FAILED: TC036_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-08 02:47:18.545 [INFO ] [main] listeners.TestListener – Screenshot embedded in report for: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:47:18.548 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:47:18.753 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:47:19.253 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:47:19.254 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:47:23.415 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:47:23.417 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:47:23.418 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:47:23.618 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:47:28.776 [INFO ] [main] listeners.TestListener – PASSED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:47:28.779 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:47:28.985 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:47:29.618 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:47:29.619 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:47:33.166 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:47:33.168 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:47:33.168 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:47:34.217 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:47:34.221 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:47:35.446 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:47:37.141 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:47:38.250 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:47:38.599 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:47:38.984 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:47:39.347 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:47:39.713 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:47:40.453 [INFO ] [main] listeners.TestListener – PASSED: TC050_printResultSectionIsClean
+2026-05-08 02:47:40.456 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:47:40.643 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:47:41.873 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 9, Failed: 1, Skipped: 0 ===
+2026-05-08 02:47:41.883 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.
+2026-05-08 02:49:27.923 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_024927.html
+2026-05-08 02:49:28.085 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:49:28.146 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:49:28.147 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:49:32.787 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:49:32.798 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:49:32.799 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:49:34.112 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:49:34.146 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:49:35.518 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:49:36.102 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:49:37.584 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:49:37.955 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:49:38.387 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:49:38.687 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:49:39.099 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:49:39.913 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:49:40.017 [INFO ] [main] listeners.TestListener – PASSED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:49:40.034 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:49:40.037 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:49:40.616 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:49:40.617 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:49:43.585 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:49:43.587 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:49:43.587 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:49:44.862 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:49:44.872 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:49:45.165 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:49:46.960 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:49:47.951 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:49:48.234 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:49:48.586 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:49:48.961 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:49:49.309 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:49:49.889 [INFO ] [main] listeners.TestListener – PASSED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:49:49.891 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:49:49.891 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:49:50.356 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:49:50.356 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:49:53.298 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:49:53.300 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:49:53.300 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:49:54.545 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:49:54.555 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:49:55.089 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:49:56.279 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:49:57.374 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:49:57.675 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:49:58.068 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:49:58.501 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:49:58.847 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:49:59.517 [INFO ] [main] listeners.TestListener – PASSED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:49:59.519 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:49:59.519 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:49:59.958 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:49:59.958 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:50:02.943 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:50:02.947 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:50:02.947 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:50:04.178 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:50:04.180 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:50:04.396 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:50:06.017 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:50:06.970 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:50:07.267 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:50:07.590 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:50:07.916 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:50:08.288 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:50:13.626 [INFO ] [main] listeners.TestListener – PASSED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:50:13.628 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:50:13.629 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:50:13.991 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:50:13.991 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:50:16.141 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:50:16.142 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:50:16.143 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:50:17.132 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:50:17.135 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:50:17.284 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:50:17.743 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:50:19.192 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:50:19.398 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:50:19.660 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:50:19.925 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:50:20.260 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:50:20.403 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:50:20.894 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:50:20.895 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:50:21.493 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='Metric Units']
+2026-05-08 02:50:21.748 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:50:22.844 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:50:23.013 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightmeter
+2026-05-08 02:50:23.173 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: ckg
+2026-05-08 02:50:23.337 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:50:23.654 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:50:24.018 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:50:24.082 [INFO ] [main] listeners.TestListener – PASSED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:50:24.084 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:50:24.084 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:50:24.508 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:50:24.508 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:50:26.943 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:50:26.944 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:50:26.945 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:50:28.225 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:50:28.228 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:50:28.429 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:50:30.063 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:50:31.246 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:50:31.550 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:50:31.962 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:50:32.365 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:50:32.750 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:50:32.923 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //table//tr[td='Weight Maintenance']/td[4]
+2026-05-08 02:50:33.376 [INFO ] [main] listeners.TestListener – PASSED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:50:33.380 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:50:33.381 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:50:33.797 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:50:33.798 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:50:37.023 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:50:37.025 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:50:37.025 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:50:38.517 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:50:38.844 [INFO ] [main] listeners.TestListener – PASSED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:50:38.846 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:50:38.846 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:50:39.108 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:50:39.109 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:50:42.039 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:50:42.040 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:50:42.041 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:50:43.372 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:50:43.424 [ERROR] [main] listeners.TestListener – FAILED: TC036_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-08 02:50:43.847 [INFO ] [main] listeners.TestListener – Screenshot embedded in report for: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:50:43.849 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:50:43.849 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:50:44.149 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:50:44.150 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:50:47.078 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:50:47.079 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:50:47.079 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:50:48.317 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:50:53.349 [INFO ] [main] listeners.TestListener – PASSED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:50:53.353 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:50:53.354 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:50:53.812 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:50:53.812 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:50:56.672 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:50:56.673 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:50:56.673 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:50:57.970 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:50:57.973 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:50:58.512 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:50:58.948 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:51:00.159 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:51:00.874 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:51:01.121 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:51:01.363 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:51:01.691 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:51:02.334 [INFO ] [main] listeners.TestListener – PASSED: TC050_printResultSectionIsClean
+2026-05-08 02:51:02.335 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:51:02.336 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:51:02.810 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 9, Failed: 1, Skipped: 0 ===
+2026-05-08 02:51:05.054 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.
+2026-05-08 02:51:42.883 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_025142.html
+2026-05-08 02:51:43.024 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:51:43.073 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:51:43.074 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:51:46.755 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:51:46.767 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:51:46.767 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:51:48.147 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:51:48.208 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:51:49.830 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:51:50.108 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:51:50.531 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:51:50.696 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:51:50.881 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:51:51.047 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:51:51.311 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:51:51.870 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:51:51.951 [INFO ] [main] listeners.TestListener – PASSED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:51:51.962 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:51:51.962 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:51:52.232 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:51:52.232 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:51:54.368 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:51:54.370 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:51:54.371 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:51:55.414 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:51:55.416 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:51:56.256 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:51:57.337 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:51:57.616 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:51:57.782 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:51:57.956 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:51:58.116 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:51:58.376 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:51:58.989 [INFO ] [main] listeners.TestListener – PASSED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:51:58.991 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:51:58.992 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:51:59.235 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:51:59.236 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:52:01.519 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:52:01.524 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:01.525 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:02.481 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:52:02.484 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:52:03.376 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:52:04.502 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:52:04.797 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:52:04.975 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:52:05.192 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:52:05.370 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:52:05.649 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:52:06.465 [INFO ] [main] listeners.TestListener – PASSED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:52:06.467 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:52:06.467 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:52:06.703 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:52:06.704 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:52:09.189 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:52:09.192 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:09.192 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:10.295 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:52:10.298 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:52:11.244 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:52:11.537 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:52:12.851 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:52:13.059 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:52:13.251 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:52:13.420 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:52:13.746 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:52:19.044 [INFO ] [main] listeners.TestListener – PASSED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:52:19.046 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:52:19.046 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:52:19.336 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:52:19.336 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:52:21.713 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:52:21.716 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:21.716 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:22.621 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:52:22.624 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:52:23.429 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:52:24.844 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:52:25.155 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:52:25.355 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:52:25.534 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:52:25.729 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:52:26.039 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:52:26.213 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:52:26.929 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:26.929 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:27.362 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='Metric Units']
+2026-05-08 02:52:28.205 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:52:28.470 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:52:28.666 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightmeter
+2026-05-08 02:52:28.831 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: ckg
+2026-05-08 02:52:29.013 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:52:29.310 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:52:29.459 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:52:29.873 [INFO ] [main] listeners.TestListener – PASSED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:52:29.875 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:52:29.875 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:52:30.232 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:52:30.232 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:52:32.667 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:52:32.670 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:32.670 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:33.678 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:52:33.681 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:52:34.594 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:52:35.078 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:52:35.931 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:52:36.079 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:52:36.246 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:52:36.396 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:52:36.635 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:52:36.810 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //table//tr[td='Weight Maintenance']/td[4]
+2026-05-08 02:52:37.447 [INFO ] [main] listeners.TestListener – PASSED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:52:37.450 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:52:37.450 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:52:37.837 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:52:37.838 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:52:39.999 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:52:40.001 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:40.001 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:40.919 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:52:41.166 [INFO ] [main] listeners.TestListener – PASSED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:52:41.167 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:52:41.168 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:52:41.361 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:52:41.362 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:52:43.380 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:52:43.382 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:43.382 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:44.317 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:52:44.367 [ERROR] [main] listeners.TestListener – FAILED: TC036_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-08 02:52:44.501 [INFO ] [main] listeners.TestListener – Screenshot embedded in report for: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:52:44.503 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:52:44.504 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:52:44.771 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:52:44.771 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:52:47.049 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:52:47.050 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:47.051 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:47.998 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:52:53.355 [INFO ] [main] listeners.TestListener – PASSED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:52:53.357 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:52:53.357 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:52:53.589 [INFO ] [main] base.BaseTest – setUp : browser=chrome
+2026-05-08 02:52:53.590 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'chrome'
+2026-05-08 02:52:55.302 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:52:55.304 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:52:55.305 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:52:56.056 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:52:56.059 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:52:56.680 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:52:57.609 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:52:57.811 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:52:57.933 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:52:58.079 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:52:58.206 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:52:58.408 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:52:59.139 [INFO ] [main] listeners.TestListener – PASSED: TC050_printResultSectionIsClean
+2026-05-08 02:52:59.141 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:52:59.141 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:52:59.373 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 9, Failed: 1, Skipped: 0 ===
+2026-05-08 02:53:00.878 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.
+2026-05-08 02:53:16.159 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_025315.html
+2026-05-08 02:53:16.367 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:53:16.451 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:16.454 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:26.625 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:53:26.640 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:53:26.649 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:26.658 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:26.658 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:27.112 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:53:27.118 [WARN ] [main] listeners.TestListener – SKIPPED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:53:27.120 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:27.123 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:27.124 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:27.447 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:53:27.454 [WARN ] [main] listeners.TestListener – SKIPPED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:53:27.456 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:27.460 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:27.460 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:27.869 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:53:27.874 [WARN ] [main] listeners.TestListener – SKIPPED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:53:27.875 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:27.878 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:27.879 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:28.219 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:53:28.223 [WARN ] [main] listeners.TestListener – SKIPPED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:53:28.225 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:28.227 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:28.227 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:28.552 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:53:28.557 [WARN ] [main] listeners.TestListener – SKIPPED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:53:28.559 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:28.562 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:28.562 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:28.913 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:53:28.921 [WARN ] [main] listeners.TestListener – SKIPPED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:53:28.923 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:28.926 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:28.926 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:29.266 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:53:29.272 [WARN ] [main] listeners.TestListener – SKIPPED: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:53:29.274 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:29.276 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:29.276 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:29.566 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:53:29.570 [WARN ] [main] listeners.TestListener – SKIPPED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:53:29.572 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:29.574 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:53:29.574 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:53:29.891 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:53:29.894 [WARN ] [main] listeners.TestListener – SKIPPED: TC050_printResultSectionIsClean
+2026-05-08 02:53:29.895 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:53:29.993 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 0, Failed: 0, Skipped: 10 ===
+2026-05-08 02:53:29.998 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.
+2026-05-08 02:54:10.140 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_025409.html
+2026-05-08 02:54:10.253 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:54:10.296 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:10.299 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:16.562 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:54:16.574 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:54:16.583 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:16.587 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:16.588 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:16.987 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:54:16.992 [WARN ] [main] listeners.TestListener – SKIPPED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:54:16.993 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:16.995 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:16.995 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:17.397 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:54:17.403 [WARN ] [main] listeners.TestListener – SKIPPED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:54:17.404 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:17.407 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:17.407 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:18.090 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:54:18.094 [WARN ] [main] listeners.TestListener – SKIPPED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:54:18.095 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:18.097 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:18.097 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:18.556 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:54:18.561 [WARN ] [main] listeners.TestListener – SKIPPED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:54:18.563 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:18.565 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:18.565 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:19.041 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:54:19.045 [WARN ] [main] listeners.TestListener – SKIPPED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:54:19.046 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:19.048 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:19.048 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:19.367 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:54:19.371 [WARN ] [main] listeners.TestListener – SKIPPED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:54:19.372 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:19.373 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:19.374 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:19.672 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:54:19.676 [WARN ] [main] listeners.TestListener – SKIPPED: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:54:19.677 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:19.679 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:19.679 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:19.989 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:54:19.992 [WARN ] [main] listeners.TestListener – SKIPPED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:54:19.993 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:19.995 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:19.995 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:20.301 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:54:20.304 [WARN ] [main] listeners.TestListener – SKIPPED: TC050_printResultSectionIsClean
+2026-05-08 02:54:20.305 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:20.392 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 0, Failed: 0, Skipped: 10 ===
+2026-05-08 02:54:20.397 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.
+2026-05-08 02:54:39.445 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_025439.html
+2026-05-08 02:54:39.655 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:54:39.729 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:39.731 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:42.030 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:54:42.046 [WARN ] [main] listeners.TestListener – SKIPPED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:54:42.057 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:42.064 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:42.065 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:42.750 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:54:42.756 [WARN ] [main] listeners.TestListener – SKIPPED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:54:42.758 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:42.760 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:42.761 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:43.199 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:54:43.205 [WARN ] [main] listeners.TestListener – SKIPPED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:54:43.207 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:43.211 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:43.211 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:43.917 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:54:43.922 [WARN ] [main] listeners.TestListener – SKIPPED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:54:43.924 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:43.927 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:43.927 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:44.344 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:54:44.348 [WARN ] [main] listeners.TestListener – SKIPPED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:54:44.349 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:44.351 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:44.352 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:44.748 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:54:44.752 [WARN ] [main] listeners.TestListener – SKIPPED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:54:44.753 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:44.756 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:44.756 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:45.133 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:54:45.136 [WARN ] [main] listeners.TestListener – SKIPPED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:54:45.137 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:45.139 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:45.139 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:45.511 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:54:45.516 [WARN ] [main] listeners.TestListener – SKIPPED: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:54:45.518 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:45.519 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:45.520 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:45.889 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:54:45.893 [WARN ] [main] listeners.TestListener – SKIPPED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:54:45.894 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:45.896 [INFO ] [main] base.BaseTest – setUp : browser=edge
+2026-05-08 02:54:45.896 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'edge'
+2026-05-08 02:54:46.289 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:54:46.292 [WARN ] [main] listeners.TestListener – SKIPPED: TC050_printResultSectionIsClean
+2026-05-08 02:54:46.293 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:54:46.392 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 0, Failed: 0, Skipped: 10 ===
+2026-05-08 02:54:46.397 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.
+2026-05-08 02:56:32.720 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_025632.html
+2026-05-08 02:56:32.952 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:56:33.032 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:56:33.034 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:56:38.032 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:56:38.054 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:56:38.055 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:56:40.195 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:56:40.224 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:56:41.235 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:56:41.769 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:56:42.859 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:56:43.096 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:56:43.299 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:56:43.479 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:56:43.774 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:56:44.382 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:56:44.465 [INFO ] [main] listeners.TestListener – PASSED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:56:44.484 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:56:44.485 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:56:44.808 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:56:44.808 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:56:47.450 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:56:47.452 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:56:47.453 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:56:48.500 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:56:48.506 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:56:49.513 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:56:49.841 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:56:50.896 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:56:51.099 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:56:51.333 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:56:51.529 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:56:51.887 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:56:52.637 [INFO ] [main] listeners.TestListener – PASSED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:56:52.639 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:56:52.640 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:56:53.000 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:56:53.001 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:58:19.767 [INFO ] [main] utils.ExtentReportManager – ExtentReports initialised → test-output/ExtentReport_20260508_025819.html
+2026-05-08 02:58:19.962 [INFO ] [main] listeners.TestListener – === Suite starting: Test ===
+2026-05-08 02:58:20.037 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:58:20.040 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:58:25.534 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:58:25.547 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:58:25.548 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:58:26.724 [INFO ] [main] listeners.TestListener – TEST START: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:58:26.752 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:58:28.657 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:58:28.956 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:58:29.313 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:58:29.525 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:58:29.734 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:58:29.929 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:58:30.272 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:58:30.972 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:58:31.077 [INFO ] [main] listeners.TestListener – PASSED: TC001_calculateCarbsForAverageAdultMale_Imperial
+2026-05-08 02:58:31.098 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:58:31.098 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:58:31.524 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:58:31.524 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:58:34.649 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:58:34.652 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:58:34.653 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:58:35.970 [INFO ] [main] listeners.TestListener – TEST START: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:58:35.975 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:58:36.893 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:58:38.761 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:58:39.156 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:58:39.426 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:58:39.645 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:58:39.839 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:58:40.195 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:58:41.074 [INFO ] [main] listeners.TestListener – PASSED: TC008_emptyWeightField_ShouldShowValidationError
+2026-05-08 02:58:41.077 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:58:41.078 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:58:41.357 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:58:41.357 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:58:44.568 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:58:44.572 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:58:44.572 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:58:45.638 [INFO ] [main] listeners.TestListener – TEST START: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:58:45.652 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:58:46.689 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:58:47.788 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:58:48.181 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:58:48.429 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:58:48.624 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:58:48.822 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:58:49.176 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:58:49.838 [INFO ] [main] listeners.TestListener – PASSED: TC018_specialCharactersInAgeField_ShouldShowValidationError
+2026-05-08 02:58:49.841 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:58:49.841 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:58:50.164 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:58:50.165 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:58:53.229 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:58:53.231 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:58:53.231 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:58:54.947 [INFO ] [main] listeners.TestListener – TEST START: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:58:54.951 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:58:56.010 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:58:56.256 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:58:56.848 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:58:58.258 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:58:58.485 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:58:58.695 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:58:58.993 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:59:04.729 [INFO ] [main] listeners.TestListener – PASSED: TC023_minValidHeight_Imperial_ShouldYieldResult
+2026-05-08 02:59:04.733 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:59:04.733 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:59:04.986 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:59:04.986 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:59:07.126 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:59:07.127 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:59:07.127 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:59:08.006 [INFO ] [main] listeners.TestListener – TEST START: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:59:08.009 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:59:08.659 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:59:09.054 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:59:09.876 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:59:10.026 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:59:10.206 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:59:10.382 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:59:10.623 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:59:10.757 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:59:11.395 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:59:11.395 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:59:11.877 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='Metric Units']
+2026-05-08 02:59:12.923 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:59:13.130 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:59:13.309 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightmeter
+2026-05-08 02:59:13.445 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: ckg
+2026-05-08 02:59:13.580 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:59:13.802 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:59:14.171 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //p[@class='bigtext']
+2026-05-08 02:59:14.224 [INFO ] [main] listeners.TestListener – PASSED: TC028_equivalentImperialAndMetricInputs_ResultsWithinTolerance
+2026-05-08 02:59:14.225 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:59:14.226 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:59:14.443 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:59:14.443 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:59:16.315 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:59:16.317 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:59:16.318 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:59:17.330 [INFO ] [main] listeners.TestListener – TEST START: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:59:17.333 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:59:17.982 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:59:18.358 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:59:19.114 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:59:19.242 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:59:19.411 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:59:19.570 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:59:19.787 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:59:20.174 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.xpath: //table//tr[td='Weight Maintenance']/td[4]
+2026-05-08 02:59:20.309 [INFO ] [main] listeners.TestListener – PASSED: TC029_MifflinStJeor_BMRFormulaVerification
+2026-05-08 02:59:20.310 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:59:20.311 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:59:20.526 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:59:20.526 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:59:22.480 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:59:22.481 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:59:22.482 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:59:23.428 [INFO ] [main] listeners.TestListener – TEST START: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:59:23.713 [INFO ] [main] listeners.TestListener – PASSED: TC033_pageLoadsInUnder3Seconds
+2026-05-08 02:59:23.714 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:59:23.714 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:59:23.924 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:59:23.925 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:59:25.862 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:59:25.864 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:59:25.865 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:59:26.744 [INFO ] [main] listeners.TestListener – TEST START: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:59:26.779 [ERROR] [main] listeners.TestListener – FAILED: TC036_allFieldsHaveAssociatedLabels - Missing label for: Age (cage) expected [true] but found [false]
+2026-05-08 02:59:26.876 [INFO ] [main] listeners.TestListener – Screenshot embedded in report for: TC036_allFieldsHaveAssociatedLabels
+2026-05-08 02:59:26.877 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:59:26.877 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:59:27.024 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:59:27.024 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:59:28.816 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:59:28.817 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:59:28.817 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:59:29.889 [INFO ] [main] listeners.TestListener – TEST START: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:59:35.131 [INFO ] [main] listeners.TestListener – PASSED: TC048_resultNotShownBeforeFirstCalculation
+2026-05-08 02:59:35.133 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:59:35.134 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:59:35.365 [INFO ] [main] base.BaseTest – setUp : browser=safari
+2026-05-08 02:59:35.365 [INFO ] [main] base.DriverManager – Initialising WebDriver for browser: 'safari'
+2026-05-08 02:59:37.259 [INFO ] [main] base.DriverManager – WebDriver ready.
+2026-05-08 02:59:37.261 [DEBUG] [main] base.BasePage – Page object initialised: CarbohydrateCalculatorPage
+2026-05-08 02:59:37.261 [INFO ] [main] base.BasePage – Navigating to: https://www.calculator.net/carbohydrate-calculator.html
+2026-05-08 02:59:38.064 [INFO ] [main] listeners.TestListener – TEST START: TC050_printResultSectionIsClean
+2026-05-08 02:59:38.069 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //a[normalize-space()='US Units']
+2026-05-08 02:59:38.754 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //label[@for='csex1']
+2026-05-08 02:59:39.718 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cage
+2026-05-08 02:59:39.929 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightfeet
+2026-05-08 02:59:40.051 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cheightinch
+2026-05-08 02:59:40.177 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cpound
+2026-05-08 02:59:40.328 [DEBUG] [main] utils.WaitUtils – Waiting for visible: By.id: cactivity
+2026-05-08 02:59:40.546 [DEBUG] [main] utils.WaitUtils – Waiting for clickable: By.xpath: //input[@type='submit' and contains(@value,'Calculate')]
+2026-05-08 02:59:41.069 [INFO ] [main] listeners.TestListener – PASSED: TC050_printResultSectionIsClean
+2026-05-08 02:59:41.071 [INFO ] [main] base.BaseTest – tearDown : quitting driver
+2026-05-08 02:59:41.071 [INFO ] [main] base.DriverManager – Quitting WebDriver.
+2026-05-08 02:59:41.307 [INFO ] [main] listeners.TestListener – ===Suite finished - Passed: 9, Failed: 1, Skipped: 0 ===
+2026-05-08 02:59:42.909 [INFO ] [main] base.BaseTest – Suite complete - flushing ExtentReports.

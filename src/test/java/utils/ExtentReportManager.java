@@ -1,5 +1,8 @@
 package utils;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -13,6 +16,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ExtentReportManager {
 	 private static final Logger log = LogManager.getLogger(ExtentReportManager.class);
 	    private static ExtentReports instance;
+	    private static String lastReportPath;
 	    
 	    private ExtentReportManager() {/* Singleton pattern always */ }
 	    public static synchronized ExtentReports getInstance() {
@@ -20,7 +24,7 @@ public class ExtentReportManager {
 	            String ts = LocalDateTime.now()
 	                    .format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
 	            String path = "test-output/ExtentReport_" + ts + ".html";
-
+	            lastReportPath = path;
 	            ExtentSparkReporter spark = new ExtentSparkReporter(path);
 	            spark.config().setDocumentTitle("Carbohydrate Calculator Test Report");
 	            spark.config().setReportName("calculator.net – Carbohydrate Calculator");
@@ -39,5 +43,18 @@ public class ExtentReportManager {
 	            log.info("ExtentReports initialised → {}", path);
 	        }
 	        return instance;
+	    }
+	    public static void openLatestReport(String reportPath) {
+	        try {
+	            File htmlFile = new File(reportPath);
+	            if (Desktop.isDesktopSupported() && htmlFile.exists()) {
+	                Desktop.getDesktop().browse(htmlFile.toURI());
+	            }
+	        } catch (IOException e) {
+	            log.warn("Failed to open extent report in browser: {}", e.getMessage());
+	        }
+	    }
+	    public static String getLastReportPath() {
+	        return lastReportPath;
 	    }
 }

@@ -51,6 +51,12 @@ public abstract class BaseTest {
 	        log.info("tearDown : quitting driver");
 	        DriverManager.quitDriver();
 	    }
+	  @AfterSuite
+	  public void afterSuite() {
+		  ExtentReports extent = ExtentReportManager.getInstance();
+	      extent.flush();
+	      ExtentReportManager.openLatestReport(ExtentReportManager.getLastReportPath());
+	  }
 	  
 	  protected WebDriver getDriver() {
 	        return DriverManager.getDriver();

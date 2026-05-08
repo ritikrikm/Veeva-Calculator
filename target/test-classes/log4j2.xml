@@ -29,10 +29,10 @@
 
     <Loggers>
        
-        <Logger name="com.carbocalc" level="DEBUG" additivity="false">
+        <!-- <Logger name="base" level="DEBUG" additivity="false">
             <AppenderRef ref="ConsoleAppender"/>
             <AppenderRef ref="FileAppender"/>
-        </Logger>
+        </Logger> -->
 
        
         <Logger name="org.openqa.selenium" level="WARN" additivity="false">
@@ -45,7 +45,7 @@
         </Logger>
 
         
-        <Root level="WARN">
+        <Root level="DEBUG">
             <AppenderRef ref="ConsoleAppender"/>
             <AppenderRef ref="FileAppender"/>
         </Root>

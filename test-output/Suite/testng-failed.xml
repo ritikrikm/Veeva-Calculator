@@ -7,8 +7,9 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="TC045_allFieldsHaveAssociatedLabels"/>
+          <include name="afterSuite"/>
           <include name="setupPage"/>
+          <include name="TC036_allFieldsHaveAssociatedLabels"/>
           <include name="tearDownSuite"/>
         </methods>
       </class> <!-- testCases.CarbohydrateCalculatorTest -->
